@@ -1,0 +1,45 @@
+# ======================
+# 🔹 Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual environments
+venv/
+venv_test/
+backend/venv/
+backend/venv_test/
+
+# 🔹 Environment variables
+.env
+
+# 🔹 Logs
+*.log
+
+# 🔹 Database
+*.sqlite3
+*.db
+
+# 🔹 Build / packaging
+build/
+dist/
+*.egg-info/
+
+# 🔹 Coverage / tests
+.coverage
+htmlcov/
+
+# 🔹 IDE
+.vscode/
+.idea/
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# ======================
+# 🔹 Frontend (React)
+# ======================
+node_modules/
+dist/
