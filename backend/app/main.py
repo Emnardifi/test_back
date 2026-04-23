@@ -9,3 +9,7 @@ def route():
 @app.get("/test_db")
 def route():
     return {"messg":"db"}
+
+@app.get("/test_db1")
+def route():
+    return {"messg":"db1"}
